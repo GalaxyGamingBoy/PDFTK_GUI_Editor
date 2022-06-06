@@ -1,2 +1,5 @@
 # PDFTK_GUI_Editor
 Custom PDFTK UI Editor made with WinForms and C# 
+
+### WARNING
+WE ARE NOT AFFILIATED WITH PDFTK, PDF LABS OR ANYONE FROM THE TEAM
