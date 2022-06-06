@@ -46,7 +46,7 @@ namespace WindowsFormsApp1
 
         private void pageTXTBox_TextChanged(object sender, EventArgs e)
         {
-            if (Regex.Match(pageTXTBox.Text, "[1-9]+-[1-9]+|end").Success)
+            if (Regex.Match(pageTXTBox.Text, "^[1-9]+-[1-9]+|^[1-9]+-end$").Success)
             {
                 pagesREGEXValid = true;
                 pagesValid.Image = System.Drawing.Image.FromFile(".\\res\\checkmark.png");
