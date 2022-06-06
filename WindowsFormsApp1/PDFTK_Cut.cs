@@ -69,7 +69,7 @@ namespace WindowsFormsApp1
                 startInfo.Arguments = $"/C pdftk {fileLocation.Text} cat {pageTXTBox.Text} output {outFileLocation.Text}";
                 process.StartInfo = startInfo;
                 process.Start();
-                Application.Exit();
+                this.Close();
             }
             else
             {
