@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PDFTK_CUT());
+            Application.Run(new PDFTK_Editor());
         }
     }
 }

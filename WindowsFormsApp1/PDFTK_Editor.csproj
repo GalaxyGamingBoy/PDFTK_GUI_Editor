@@ -52,10 +52,28 @@
     <Compile Include="PDFTK_Cut.Designer.cs">
       <DependentUpon>PDFTK_Cut.cs</DependentUpon>
     </Compile>
+    <Compile Include="PDFTK_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFTK_Editor.Designer.cs">
+      <DependentUpon>PDFTK_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDFTK_Encrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFTK_Encrypt.Designer.cs">
+      <DependentUpon>PDFTK_Encrypt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PDFTK_Cut.resx">
       <DependentUpon>PDFTK_Cut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFTK_Editor.resx">
+      <DependentUpon>PDFTK_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFTK_Encrypt.resx">
+      <DependentUpon>PDFTK_Encrypt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

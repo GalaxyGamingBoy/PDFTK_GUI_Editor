@@ -41,7 +41,7 @@
             this.pageTXTBox = new System.Windows.Forms.TextBox();
             this.pagesValid = new System.Windows.Forms.PictureBox();
             this.RunSave = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.example = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pagesValid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -160,22 +160,22 @@
             this.RunSave.UseVisualStyleBackColor = true;
             this.RunSave.Click += new System.EventHandler(this.RunSave_Click);
             // 
-            // label1
+            // example
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))));
-            this.label1.Location = new System.Drawing.Point(34, 172);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 18);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Example: 1-5 OR 1-end";
+            this.example.AutoSize = true;
+            this.example.Font = new System.Drawing.Font("Roboto", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))));
+            this.example.Location = new System.Drawing.Point(34, 172);
+            this.example.Name = "example";
+            this.example.Size = new System.Drawing.Size(155, 18);
+            this.example.TabIndex = 10;
+            this.example.Text = "Example: 1-5 OR 1-end";
             // 
             // PDFTK_CUT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 225);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.example);
             this.Controls.Add(this.RunSave);
             this.Controls.Add(this.pagesValid);
             this.Controls.Add(this.pageTXTBox);
@@ -210,7 +210,7 @@
         private System.Windows.Forms.TextBox pageTXTBox;
         private System.Windows.Forms.PictureBox pagesValid;
         private System.Windows.Forms.Button RunSave;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label example;
     }
 }
 
