@@ -28,5 +28,10 @@ namespace WindowsFormsApp1
             PDFTK_Encrypt encryptForm = new PDFTK_Encrypt();
             encryptForm.Show();
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
