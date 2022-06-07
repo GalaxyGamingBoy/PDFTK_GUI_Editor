@@ -58,7 +58,7 @@
             // OpenPDFFile
             // 
             this.OpenPDFFile.Font = new System.Drawing.Font("Roboto", 8F);
-            this.OpenPDFFile.Location = new System.Drawing.Point(617, 12);
+            this.OpenPDFFile.Location = new System.Drawing.Point(163, 13);
             this.OpenPDFFile.Name = "OpenPDFFile";
             this.OpenPDFFile.Size = new System.Drawing.Size(75, 23);
             this.OpenPDFFile.TabIndex = 1;
@@ -76,7 +76,7 @@
             // 
             this.fileLocation.AutoSize = true;
             this.fileLocation.Font = new System.Drawing.Font("Roboto", 13F, System.Drawing.FontStyle.Italic);
-            this.fileLocation.Location = new System.Drawing.Point(151, 13);
+            this.fileLocation.Location = new System.Drawing.Point(244, 14);
             this.fileLocation.Name = "fileLocation";
             this.fileLocation.Size = new System.Drawing.Size(120, 22);
             this.fileLocation.TabIndex = 2;
@@ -102,7 +102,7 @@
             // 
             this.outFileLocation.AutoSize = true;
             this.outFileLocation.Font = new System.Drawing.Font("Roboto", 13F, System.Drawing.FontStyle.Italic);
-            this.outFileLocation.Location = new System.Drawing.Point(163, 53);
+            this.outFileLocation.Location = new System.Drawing.Point(244, 51);
             this.outFileLocation.Name = "outFileLocation";
             this.outFileLocation.Size = new System.Drawing.Size(132, 22);
             this.outFileLocation.TabIndex = 4;
@@ -111,7 +111,7 @@
             // SavePDFFile
             // 
             this.SavePDFFile.Font = new System.Drawing.Font("Roboto", 8F);
-            this.SavePDFFile.Location = new System.Drawing.Point(617, 54);
+            this.SavePDFFile.Location = new System.Drawing.Point(163, 52);
             this.SavePDFFile.Name = "SavePDFFile";
             this.SavePDFFile.Size = new System.Drawing.Size(75, 23);
             this.SavePDFFile.TabIndex = 5;

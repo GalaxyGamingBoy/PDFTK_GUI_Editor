@@ -33,6 +33,7 @@
             this.cut = new System.Windows.Forms.Button();
             this.encrypt = new System.Windows.Forms.Button();
             this.exit = new System.Windows.Forms.Button();
+            this.decrypt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title
@@ -79,11 +80,23 @@
             this.exit.UseVisualStyleBackColor = true;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
+            // decrypt
+            // 
+            this.decrypt.Font = new System.Drawing.Font("Roboto", 12F);
+            this.decrypt.Location = new System.Drawing.Point(12, 131);
+            this.decrypt.Name = "decrypt";
+            this.decrypt.Size = new System.Drawing.Size(190, 30);
+            this.decrypt.TabIndex = 4;
+            this.decrypt.Text = "Decrypt PDF";
+            this.decrypt.UseVisualStyleBackColor = true;
+            this.decrypt.Click += new System.EventHandler(this.decrypt_Click);
+            // 
             // PDFTK_Editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(214, 361);
+            this.Controls.Add(this.decrypt);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.encrypt);
             this.Controls.Add(this.cut);
@@ -102,5 +115,6 @@
         private System.Windows.Forms.Button cut;
         private System.Windows.Forms.Button encrypt;
         private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.Button decrypt;
     }
 }

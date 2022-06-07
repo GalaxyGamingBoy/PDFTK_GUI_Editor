@@ -29,6 +29,12 @@ namespace WindowsFormsApp1
             encryptForm.Show();
         }
 
+        private void decrypt_Click(object sender, EventArgs e)
+        {
+            PDFTK_Decrypt decryptForm = new PDFTK_Decrypt();
+            decryptForm.Show();
+        }
+
         private void exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
