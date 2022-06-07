@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
                 startInfo.FileName = "cmd.exe";
-                startInfo.Arguments = $"/C pdftk {fileLocation.Text} cat {pageTXTBox.Text} output {outFileLocation.Text}";
+                startInfo.Arguments = $"/C pdftk \"{fileLocation.Text}\" cat {pageTXTBox.Text} output \"{outFileLocation.Text}\"";
                 process.StartInfo = startInfo;
                 process.Start();
                 this.Close();

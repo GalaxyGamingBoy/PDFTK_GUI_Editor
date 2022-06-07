@@ -57,7 +57,7 @@ namespace WindowsFormsApp1
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = $"/C pdftk {fileLocation.Text} output {outFileLocation.Text} owner_pw {passwordInput.Text} {allowPrinting}";
+            startInfo.Arguments = $"/C pdftk \"{fileLocation.Text}\" output \"{outFileLocation.Text}\" owner_pw {passwordInput.Text} {allowPrinting}";
             process.StartInfo = startInfo;
             process.Start();
             this.Close();
