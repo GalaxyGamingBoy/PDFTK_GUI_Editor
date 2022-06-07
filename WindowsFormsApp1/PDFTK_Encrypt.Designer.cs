@@ -43,6 +43,7 @@
             this.showPassword = new System.Windows.Forms.CheckBox();
             this.example = new System.Windows.Forms.Label();
             this.printPassword = new System.Windows.Forms.CheckBox();
+            this.titleLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // inputPDF
@@ -185,11 +186,22 @@
             this.printPassword.UseVisualStyleBackColor = true;
             this.printPassword.CheckedChanged += new System.EventHandler(this.printPassword_CheckedChanged);
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Roboto", 13F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.titleLabel.Location = new System.Drawing.Point(561, 9);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(131, 22);
+            this.titleLabel.TabIndex = 21;
+            this.titleLabel.Text = "PDFTK Encrypt";
+            // 
             // PDFTK_Encrypt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 225);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.printPassword);
             this.Controls.Add(this.example);
             this.Controls.Add(this.showPassword);
@@ -226,5 +238,6 @@
         private System.Windows.Forms.CheckBox showPassword;
         private System.Windows.Forms.Label example;
         private System.Windows.Forms.CheckBox printPassword;
+        private System.Windows.Forms.Label titleLabel;
     }
 }

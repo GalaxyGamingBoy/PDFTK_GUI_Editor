@@ -42,6 +42,7 @@
             this.password = new System.Windows.Forms.TextBox();
             this.passwordLabel = new System.Windows.Forms.Label();
             this.Run = new System.Windows.Forms.Button();
+            this.titleLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // inputPDF
@@ -172,11 +173,22 @@
             this.Run.UseVisualStyleBackColor = true;
             this.Run.Click += new System.EventHandler(this.Run_Click);
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Roboto", 13F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.titleLabel.Location = new System.Drawing.Point(559, 9);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(133, 22);
+            this.titleLabel.TabIndex = 20;
+            this.titleLabel.Text = "PDFTK Decrypt";
+            // 
             // PDFTK_Decrypt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 225);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.Run);
             this.Controls.Add(this.examplePassword);
             this.Controls.Add(this.showPassword);
@@ -211,5 +223,6 @@
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label passwordLabel;
         private System.Windows.Forms.Button Run;
+        private System.Windows.Forms.Label titleLabel;
     }
 }

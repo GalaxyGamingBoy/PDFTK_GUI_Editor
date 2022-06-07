@@ -42,6 +42,7 @@
             this.pagesValid = new System.Windows.Forms.PictureBox();
             this.RunSave = new System.Windows.Forms.Button();
             this.example = new System.Windows.Forms.Label();
+            this.titleLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pagesValid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -170,11 +171,22 @@
             this.example.TabIndex = 10;
             this.example.Text = "Example: 1-5 OR 1-end";
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Roboto", 13F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.titleLabel.Location = new System.Drawing.Point(594, 9);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(98, 22);
+            this.titleLabel.TabIndex = 21;
+            this.titleLabel.Text = "PDFTK Cut";
+            // 
             // PDFTK_CUT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 225);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.example);
             this.Controls.Add(this.RunSave);
             this.Controls.Add(this.pagesValid);
@@ -211,6 +223,7 @@
         private System.Windows.Forms.PictureBox pagesValid;
         private System.Windows.Forms.Button RunSave;
         private System.Windows.Forms.Label example;
+        private System.Windows.Forms.Label titleLabel;
     }
 }
 
