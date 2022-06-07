@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PDFTK_Decrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFTK_Decrypt.Designer.cs">
+      <DependentUpon>PDFTK_Decrypt.cs</DependentUpon>
+    </Compile>
     <Compile Include="PDFTK_Cut.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PDFTK_Decrypt.resx">
+      <DependentUpon>PDFTK_Decrypt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PDFTK_Cut.resx">
       <DependentUpon>PDFTK_Cut.cs</DependentUpon>
     </EmbeddedResource>

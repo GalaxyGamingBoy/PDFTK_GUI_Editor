@@ -42,6 +42,7 @@
             this.pagesValid = new System.Windows.Forms.PictureBox();
             this.RunSave = new System.Windows.Forms.Button();
             this.example = new System.Windows.Forms.Label();
+            this.titleLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pagesValid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             // OpenPDFFile
             // 
             this.OpenPDFFile.Font = new System.Drawing.Font("Roboto", 8F);
-            this.OpenPDFFile.Location = new System.Drawing.Point(617, 12);
+            this.OpenPDFFile.Location = new System.Drawing.Point(163, 13);
             this.OpenPDFFile.Name = "OpenPDFFile";
             this.OpenPDFFile.Size = new System.Drawing.Size(75, 23);
             this.OpenPDFFile.TabIndex = 1;
@@ -76,7 +77,7 @@
             // 
             this.fileLocation.AutoSize = true;
             this.fileLocation.Font = new System.Drawing.Font("Roboto", 13F, System.Drawing.FontStyle.Italic);
-            this.fileLocation.Location = new System.Drawing.Point(151, 13);
+            this.fileLocation.Location = new System.Drawing.Point(244, 14);
             this.fileLocation.Name = "fileLocation";
             this.fileLocation.Size = new System.Drawing.Size(120, 22);
             this.fileLocation.TabIndex = 2;
@@ -102,7 +103,7 @@
             // 
             this.outFileLocation.AutoSize = true;
             this.outFileLocation.Font = new System.Drawing.Font("Roboto", 13F, System.Drawing.FontStyle.Italic);
-            this.outFileLocation.Location = new System.Drawing.Point(163, 53);
+            this.outFileLocation.Location = new System.Drawing.Point(244, 51);
             this.outFileLocation.Name = "outFileLocation";
             this.outFileLocation.Size = new System.Drawing.Size(132, 22);
             this.outFileLocation.TabIndex = 4;
@@ -111,7 +112,7 @@
             // SavePDFFile
             // 
             this.SavePDFFile.Font = new System.Drawing.Font("Roboto", 8F);
-            this.SavePDFFile.Location = new System.Drawing.Point(617, 54);
+            this.SavePDFFile.Location = new System.Drawing.Point(163, 52);
             this.SavePDFFile.Name = "SavePDFFile";
             this.SavePDFFile.Size = new System.Drawing.Size(75, 23);
             this.SavePDFFile.TabIndex = 5;
@@ -170,11 +171,22 @@
             this.example.TabIndex = 10;
             this.example.Text = "Example: 1-5 OR 1-end";
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Font = new System.Drawing.Font("Roboto", 13F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.titleLabel.Location = new System.Drawing.Point(594, 9);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(98, 22);
+            this.titleLabel.TabIndex = 21;
+            this.titleLabel.Text = "PDFTK Cut";
+            // 
             // PDFTK_CUT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 225);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.example);
             this.Controls.Add(this.RunSave);
             this.Controls.Add(this.pagesValid);
@@ -211,6 +223,7 @@
         private System.Windows.Forms.PictureBox pagesValid;
         private System.Windows.Forms.Button RunSave;
         private System.Windows.Forms.Label example;
+        private System.Windows.Forms.Label titleLabel;
     }
 }
 
